@@ -38,6 +38,7 @@ Lists all trackers the plugin currently has running.
 - maximum-trackers: Maximum amount of trackers a player is allowed to have consecutively. (put 0 to remove the limit)
 
 ## Permissions
+- entitytracker.*: All permissions. Do not use for normal players!
 - entitytracker.notifiers: Allow player to use /notifier (default on)
 - entitytracker.trackers: Allow player to use /tracker (default on)
 - entitytracker.bypasslimit: Allow player to bypass notifier and tracker limits. (default op only)
