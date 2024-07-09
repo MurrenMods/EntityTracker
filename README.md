@@ -9,7 +9,7 @@ Entity notifiers can be created per entity type and a configurable radius. When 
 Entity tracker can be created per entity type and a configurable radius. When a player creates a tracker, it will get counted by the plugin when an entity of the chosen type spawns within their radius (or serverwide when no radius is specified). The statistics can then be retrieved of the tracker, which will tell you how many entities of the chosen type spawned, how long the tracker ran and what the hourly spawn rate of that entity was.
 
 ## Commands
-### /notifier <create|delete|listall> \[entitytype] \[radius]
+### /notifier <create|delete|list|listall> \[entitytype] \[radius]
 #### /notifier create <entitytype> \[radius]
 Creates a notifier for the specified entity type and the given radius. Can also be used without specifying a radius.
 #### /notifier delete <entitytype>
