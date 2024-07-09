@@ -10,9 +10,9 @@ Entity tracker can be created per entity type and a configurable radius. When a 
 
 ## Commands
 ### /notifier <create|delete|list|listall> \[entitytype] \[radius]
-#### /notifier create <entitytype> \[radius]
+#### /notifier create \<entitytype> \[radius]
 Creates a notifier for the specified entity type and the given radius. Can also be used without specifying a radius.
-#### /notifier delete <entitytype>
+#### /notifier delete \<entitytype>
 Deletes the player's notifier of the given type, if present.
 #### /notifier list
 Lists all notifiers the player currently has running.
@@ -20,13 +20,13 @@ Lists all notifiers the player currently has running.
 Lists all notifiers the plugin currently has running.
 
 ### /tracker <create/delete/list/log/listall> \[entityType] \[distance]
-#### /tracker create <entitytype> \[radius]
+#### /tracker create \<entitytype> \[radius]
 Creates a tracker for the specified entity type and the given radius. Can also be used without specifying a radius.
-#### /tracker delete <entitytype>
+#### /tracker delete \<entitytype>
 Logs the stats and deletes the player's tracker of the given type, if present.
 #### /tracker list
 Lists all trackers the player currently has running.
-#### /tracker log <entitytype>
+#### /tracker log \<entitytype>
 Logs the stats of the player's tracker of the given type, if present.
 #### /tracker listall
 Lists all trackers the plugin currently has running.
