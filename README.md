@@ -34,8 +34,8 @@ Lists all trackers the plugin currently has running.
 ## Config
 - allow-notifiers: Toggles if /notifier should be enabled.
 - allow-trackers: Toggles if /tracker should be enabled.
-- maximum-notifiers: Maximum amount of notifiers a player is allowed to have consecutively.
-- maximum-trackers: Maximum amount of trackers a player is allowed to have consecutively.
+- maximum-notifiers: Maximum amount of notifiers a player is allowed to have consecutively. (put 0 to remove the limit)
+- maximum-trackers: Maximum amount of trackers a player is allowed to have consecutively. (put 0 to remove the limit)
 
 ## Permissions
 - entitytracker.notifiers: Allow player to use /notifier (default on)
