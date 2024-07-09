@@ -1,3 +1,10 @@
+# Output
+target/
+out/
+
+# IDEA
+.idea/
+
 # Compiled class file
 *.class
 
