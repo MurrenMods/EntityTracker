@@ -1,0 +1,11 @@
+me\murren\entitytracker\tracker\TrackerManager.class
+me\murren\entitytracker\notifier\Notifier.class
+me\murren\entitytracker\tracker\TrackerTabCompleter.class
+me\murren\entitytracker\tracker\Tracker.class
+me\murren\entitytracker\config\Config.class
+me\murren\entitytracker\util\EntityTypes.class
+me\murren\entitytracker\notifier\NotifierManager.class
+me\murren\entitytracker\notifier\NotifierTabCompleter.class
+me\murren\entitytracker\notifier\NotifierCommand.class
+me\murren\entitytracker\tracker\TrackerCommand.class
+me\murren\entitytracker\EntityTracker.class

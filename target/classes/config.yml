@@ -1,0 +1,13 @@
+# Configuration for the EntityTracker plugin by Murren.
+
+# Toggles if /notifier should be enabled.
+allow-notifiers: true
+
+# Toggles if /tracker should be enabled.
+allow-trackers: true
+
+# Maximum amount of notifiers a player is allowed to have consecutively. (put 0 to remove the limit)
+maximum-notifiers: 3
+
+# Maximum amount of trackers a player is allowed to have consecutively. (put 0 to remove the limit)
+maximum-trackers: 3

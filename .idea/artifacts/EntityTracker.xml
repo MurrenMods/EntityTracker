@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EntityTracker">
+    <output-path>$PROJECT_DIR$/out/artifacts/EntityTracker</output-path>
+    <root id="archive" name="EntityTracker.jar">
+      <element id="module-output" name="EntityTracker" />
+    </root>
+  </artifact>
+</component>

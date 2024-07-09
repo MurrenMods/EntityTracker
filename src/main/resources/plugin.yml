@@ -1,0 +1,41 @@
+name: EntityTracker
+version: '${project.version}'
+main: me.murren.entitytracker.EntityTracker
+api-version: '1.19'
+prefix: EntityTracker
+authors: [Murren]
+description: Allows players to set notifications and trackers for specific entity spawns.
+
+commands:
+  notifier:
+    description: Set a notification for a specific entity
+    usage: /notifier <create/delete/list/listall> [entityType] [distance]
+    permission: entitytracker.notifiers
+    aliases: [notifier]
+  tracker:
+    description: Set a tracker for a specific entity
+    usage: /tracker <create/delete/list/log/listall> [entityType] [distance]
+    permission: entitytracker.trackers
+    aliases: [tracker]
+
+permissions:
+  entitytracker.*:
+    description: All permissions. Do not use this for normal players!
+    default: op
+    children:
+      entitytracker.notifiers: true
+      entitytracker.trackers: true
+      entitytracker.bypasslimit: true
+      entitytracker.listall: true
+  entitytracker.notifiers:
+    description: Allows the player to set notifications for entities
+    default: true
+  entitytracker.trackers:
+    description: Allows the player to set trackers for entities
+    default: true
+  entitytracker.bypasslimit:
+    description: Allows the player to bypass the limit of trackers and notifiers
+    default: op
+  entitytracker.listall:
+    description: Allows the player to list all trackers and notifiers
+    default: op
